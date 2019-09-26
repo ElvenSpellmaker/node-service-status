@@ -1,0 +1,50 @@
+parserOptions:
+  ecmaVersion: 2017
+env:
+  node: true
+  es6: true
+extends:
+  - eslint:recommended
+  - plugin:jsdoc/recommended
+plugins:
+  - jsdoc
+overrides:
+  -
+    files:
+      test/**/*.js
+    env:
+      jest: true
+
+rules:
+  indent:
+    - error
+    - tab
+  semi:
+    - error
+    - always
+  quotes:
+    - error
+    - single
+  brace-style:
+    - error
+    - allman
+  array-bracket-newline:
+    - error
+    - consistent
+  comma-dangle:
+    - error
+    - always-multiline
+  jsdoc/require-jsdoc:
+    - error
+    -
+      require:
+        ArrowFunctionExpression: true
+        ClassDeclaration: true
+        ClassExpression: true
+        FunctionDeclaration: true
+        FunctionExpression: true
+        MethodDefinition: true
+  jsdoc/newline-after-description:
+    - error
+  jsdoc/require-description:
+    - error
