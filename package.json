@@ -1,0 +1,28 @@
+{
+	"name": "@elvenspellmaker/node-service-status",
+	"version": "0.0.1",
+	"description": "A package to provide a Service Status functionality for Node.js projects.",
+	"main": "index.js",
+	"author": {
+		"email": "Jack@elvenspellmaker.co.uk",
+		"name": "Jack Blower",
+		"url": "http://elvenspellmaker.co.uk"
+	},
+	"engines": {
+		"node": ">=10.0.0"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/ElvenSpellmaker/node-service-status",
+	"bugs": "https://github.com/ElvenSpellmaker/node-service-status/issues",
+	"devDependencies": {
+		"eslint": "^6.2.2",
+		"eslint-plugin-jsdoc": "^15.8.4",
+		"eslint-watch": "^6.0.0",
+		"jest": "^24.9.0"
+	},
+	"scripts": {
+		"test": "jest",
+		"lint": "eslint src/ index.js test/",
+		"wlint": "esw -w src/ index.js test/"
+	}
+}
