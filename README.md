@@ -1,6 +1,9 @@
 Node Service Status [![Build Status](https://travis-ci.com/ElvenSpellmaker/node-service-status.svg?branch=master)](https://travis-ci.com/ElvenSpellmaker/node-service-status)
 ===================
 
+Cock in the face of danger
+------------
+
 This library provides a mechanism to generate an object from a list of service
 status monitors and provdies the ability to either run all monitors or just one.
 
