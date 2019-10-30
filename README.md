@@ -1,4 +1,4 @@
-Node Service Status [![Build Status](https://travis-ci.com/ElvenSpellmaker/node-service-status.svg?branch=master)](https://travis-ci.com/ElvenSpellmaker/node-service-status)
+Node Service Status [![Build Status](https://travis-ci.com/ElvenSpellmaker/node-service-status.svg?branch=master)](https://travis-ci.com/ElvenSpellmaker/node-service-status) [![npm version](https://badge.fury.io/js/%40elvenspellmaker%2Fnode-service-status.svg)](https://badge.fury.io/js/%40elvenspellmaker%2Fnode-service-status)
 ===================
 
 This library provides a mechanism to generate an object from a list of service
