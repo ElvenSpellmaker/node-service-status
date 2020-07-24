@@ -1,6 +1,6 @@
 {
 	"name": "@elvenspellmaker/node-service-status",
-	"version": "0.0.5",
+	"version": "0.0.7",
 	"description": "A package to provide a Service Status functionality for Node.js projects.",
 	"main": "index.js",
 	"author": {
