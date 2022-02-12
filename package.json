@@ -1,6 +1,6 @@
 {
 	"name": "@elvenspellmaker/node-service-status",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"description": "A package to provide a Service Status functionality for Node.js projects.",
 	"main": "index.js",
 	"author": {
@@ -9,13 +9,13 @@
 		"url": "http://elvenspellmaker.co.uk"
 	},
 	"engines": {
-		"node": ">=10.0.0"
+		"node": ">=12.0.0"
 	},
 	"license": "MIT",
 	"homepage": "https://github.com/ElvenSpellmaker/node-service-status",
 	"bugs": "https://github.com/ElvenSpellmaker/node-service-status/issues",
 	"devDependencies": {
-		"eslint": "^6.2.2",
+		"eslint": "^8.9.0",
 		"eslint-plugin-jsdoc": "^15.8.4",
 		"eslint-watch": "^6.0.0",
 		"jest": "^26.6.3"
